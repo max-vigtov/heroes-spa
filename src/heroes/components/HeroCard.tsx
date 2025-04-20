@@ -27,7 +27,7 @@ export const HeroCard = ({hero}: Props) => {
 	const heroImage = `/assets/heroes/${hero.id}.jpg`
     
 	return (
-        <div className="row no-gutters">
+        <div className="row no-gutters animate__animated animate__fadeIn">
 			<div className="card">
 				<div className="row no-gutters">
 					<div className="col-4">
